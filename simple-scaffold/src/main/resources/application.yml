@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: xx
+    password: xx
+    url: jdbc:mysql://x.x.x.x:3306/database?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+
+server:
+  port: 8081
+
+#swagger的api文档访问地址
+#swagger-ui.html
+springfox.documentation.swagger.v2.path: /api-docs
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
